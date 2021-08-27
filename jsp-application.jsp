@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>First JSP</title>
+<title>DevOps-JSP</title>
 </head>
 <%@ page import="java.util.Date" %>
 <body>
-<h3>DevOps course</h3><br>
+<h3>DevOps course!</h3><br>
 <strong>Current Time is</strong>: <%=new Date() %>
 
 </body>
