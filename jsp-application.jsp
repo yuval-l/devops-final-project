@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>DevOps-JSP</title>
+<title>DevOpsJSP</title>
 </head>
 <%@ page import="java.util.Date" %>
 <body>
