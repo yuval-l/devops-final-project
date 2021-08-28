@@ -23,7 +23,7 @@
 </body>
 </html>
 
-<img id="100" src="100.gif" style="visibility: none;">
+<img id="100" src="100.gif" style="display: none;">
 
 <script>
 	function showGif() {
