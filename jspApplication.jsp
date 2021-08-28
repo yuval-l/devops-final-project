@@ -18,7 +18,7 @@
 				<td>Last Name</td>
 				<td><input type="text" name="last_name" /></td>
 			</tr></table>
-		<input type="submit" value="Get your grade" onclick="showGif()"/>	
+		<input type="submit" value="Get your grade" onclick="showGif.jsp"/>	
 	</form>
 <img id="100" src="100.gif" style="display: none;">	
 </body>
