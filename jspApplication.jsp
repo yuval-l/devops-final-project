@@ -19,6 +19,7 @@
 			<td><input type="text" name="last_name" /></td>
 		</tr></table>
 	<input type="submit" value="Get your grade" onclick="showGif()"/>
+	<img id="100" src="100.gif">		
 </form>
 </body>
 </html>
@@ -26,7 +27,6 @@
 
 <script>
 	function showGif() {
-		<img id="100" src="100.gif">		
 		document.getElementById('100').style.display = 'block';
 	}
 </script>
