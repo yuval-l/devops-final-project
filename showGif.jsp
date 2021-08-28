@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>DevOps Course - get your grade!</h1>
-	<img id="100" src="100.gif" style="display: none;">	
+	<img id="100" src="100.gif">	
 </body>
 </html>
