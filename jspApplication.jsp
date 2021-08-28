@@ -8,6 +8,12 @@
 </head>
 <body>
 <h1>DevOps Grade Form</h1>
+			<img id="100" src="100.gif">
+			<script>
+				function showGif() {
+					document.getElementById('100').style.display = 'block';
+				}
+			</script>
 <form action="get_grade" method="post">
 			<table style="with: 50%">
 				<tr>
@@ -22,8 +28,8 @@
 					<td>Your grade in DevOps class</td>
 					<td><input type="text" name="your_grade" /></td>
 				</tr></table>
-			<input type="submit" value="Submit" /></form>
-			<img src="100.gif" />
+			<input type="submit" value="Submit" onclick="showGif()"/></form>
+
 </body>
 </html>
 
