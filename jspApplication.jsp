@@ -24,12 +24,10 @@
 </html>
 
 
-<img id="100" src="100.gif" style="display: none;">
-
 <script>
 	function showGif() {
+		<img id="100" src="100.gif">		
 		document.getElementById('100').style.display = 'block';
-		<img id="100" src="100.gif">
 	}
 </script>
 
