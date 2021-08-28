@@ -10,21 +10,22 @@
             function showGif() {
                 document.getElementById('100').style.display = 'block';
             }
-        </script>
+</script>
 </head>
 <body>
 <h1>DevOps Grade Form</h1>
-<form action="get_grade" method="post">
-			<table style="with: 50%">
-				<tr>
-					<td>First Name</td>
-					<td><input type="text" name="first_name" /></td>
-				</tr>
-				<tr>
-					<td>Last Name</td>
-					<td><input type="text" name="last_name" /></td>
-				</tr></table>
-			<input type="submit" value="Get your grade" onclick="showGif()"/></form>
+<form method="post">
+	<table style="with: 50%">
+		<tr>
+			<td>First Name</td>
+			<td><input type="text" name="first_name" /></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td><input type="text" name="last_name" /></td>
+		</tr></table>
+	<input type="submit" value="Get your grade" onclick="showGif()"/>
+</form>
 
 
 </body>
