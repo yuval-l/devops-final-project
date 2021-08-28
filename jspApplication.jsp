@@ -28,6 +28,7 @@
 <script>
 	function showGif() {
 		document.getElementById('100').style.display = 'block';
+		$('#100').show()
 	}
 </script>
 
