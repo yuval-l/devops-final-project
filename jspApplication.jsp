@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>DevOps Course - get your grade!</h1>
-	<form action="showGif()" method="post">
+	<form action="showGif.jsp" method="post">
 		<table style="with: 50%">
 			<tr>
 				<td>First Name</td>
