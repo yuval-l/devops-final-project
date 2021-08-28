@@ -23,5 +23,7 @@
 					<td><input type="text" name="your_grade" /></td>
 				</tr></table>
 			<input type="submit" value="Submit" /></form>
+			<img src="100.gif" />
 </body>
 </html>
+
