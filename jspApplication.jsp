@@ -5,13 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>DevOps Grade Form</title>
+<img id="100" src="100.gif">
+ <script>
+            function showGif() {
+                document.getElementById('100').style.display = 'block';
+            }
+        </script>
 </head>
 <body>
 <h1>DevOps Grade Form</h1>
 <form action="get_grade" method="post">
-			function showGif() {
-				document.getElementById('100').style.display = 'block';
-			}
 			<table style="with: 50%">
 				<tr>
 					<td>First Name</td>
@@ -20,12 +23,8 @@
 				<tr>
 					<td>Last Name</td>
 					<td><input type="text" name="last_name" /></td>
-				</tr>
-				<tr>
-					<td>Your grade in DevOps class</td>
-					<td><input type="text" name="your_grade" /></td>
 				</tr></table>
-			<input type="submit" value="Submit" onclick=<img id="100" src="100.gif">"/></form>
+			<input type="submit" value="Get your grade" onclick="showGif()"/></form>
 
 
 </body>
