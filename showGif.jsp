@@ -7,7 +7,7 @@
 <title>DevOps Grade Form</title>
 </head>
 <body>
-<h1>DevOps Course - get your grade!</h1>
+<h1>DevOps Course - Your grade is:</h1>
 	<img id="100" src="100.gif">	
 </body>
 </html>
